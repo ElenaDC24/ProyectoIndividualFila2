@@ -1,4 +1,16 @@
 GET http://localhost:8080/webapi/ordenadores
 
-
 ######
+
+POST http://localhost:8080/webapi/ordenadores
+content-type:application/json
+
+{
+"numero":"30",
+"marca":"premium",
+"modelo":"samsung",
+"precio":"1200"
+}
+########
+
+DELETE http://localhost:8080/webapi/ordenadores/30
